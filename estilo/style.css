@@ -16,8 +16,10 @@
 }
 
 html, body {
+    margin: auto;
+    max-width: 600px;
     min-height: 100vh;
-    background-color: rgb(149, 152, 156);
+    background-color: gray;
     
 }
 
@@ -95,4 +97,18 @@ footer {
     background-color: black;
     text-align: center;
     padding: 10px;
+}
+
+@media screen and (min-width: 700px) {
+
+    header > h1 {
+        font-size: 70px;
+    }
+    section {
+        font-size: 26px;
+    }
+    
+
+
+    
 }
